@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+} 
+
+h1 {
+    font-size: 3.3em;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+#hero {
+    background: linear-gradient(to bottom right, rgba(204, 0, 102, 0.5) 0%, rgba(102, 255, 204, 0.5) 100%), url(bilder/hero-bg.jpg) top center;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-section-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    max-width: 950px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    padding: 40px 5px;
+    border-radius: 20px;
+}
+
+#hero-image {
+    display: flex;
+    width: 350px;
+    border-radius: 250px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#socia-media-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+#hero-intro-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 2em;
+    width: 450px;
+}
+
+#hero-intro-div h1, h2, p {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
