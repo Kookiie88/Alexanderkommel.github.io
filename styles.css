@@ -34,32 +34,64 @@ p {
     max-width: 950px;
     background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-    padding: 40px 5px;
+    padding: 40px 10px;
     border-radius: 20px;
 }
 
 #hero-image {
-    display: flex;
     width: 350px;
     border-radius: 250px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-#socia-media-links {
-    display: flex;
-    justify-content: center;
-    margin-top: 1em;
 }
 
 #hero-intro-div {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 2em;
+    margin-left: 30px;
     width: 450px;
 }
 
 #hero-intro-div h1, h2, p {
     margin-top: 0;
     margin-bottom: 15px;
+}
+
+
+
+
+/*Reponsivitet*/
+
+@media (max-width: 1185px) {
+    #hero-intro-div {
+    text-align: center;
+    margin-top: 10px; 
+    }
+}
+
+@media (max-width: 768px) {
+    #hero-section-div {
+        width: 90%;
+        
+    }
+
+    #hero-intro-div {
+        margin: 10px 10px;
+    }
+    #hero-image {
+        width: 200px; 
+    }
+
+    h1 {
+        font-size: 2.5em;
+        font-weight: 500;
+    }
+    
+    h2 {
+        font-size: 1.3em;
+    }
+    
+    p {
+        font-size: 1em;
+    }
 }
