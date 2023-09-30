@@ -66,13 +66,16 @@ p {
     background-size: cover;
 }
 
-#about-me-heading {
+#breadcrumb-heading {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    background: url(bilder/about-me-heading-bg.jpg);
+    background-size: cover;
+    padding: 15px 0;
 }
 
-#about-me-heading h1 {
+#breadcrumb-heading h1 {
+    color: white;
     font-weight: 900;
 }
 
@@ -86,7 +89,7 @@ p {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
     padding: 60px 60px;
     border-radius: 20px;
-    margin-bottom: 100px;
+    margin: 100px 0;
 }
 
 /*-----------------Reponsivitet-----------------*/
