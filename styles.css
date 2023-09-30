@@ -57,20 +57,59 @@ p {
     margin-bottom: 15px;
 }
 
+#about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3)), url(bilder/about-me-bg.jpg) top center;
+    background-size: cover;
+}
+
+#about-me-heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#about-me-heading h1 {
+    font-weight: 900;
+}
+
+#about-me-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    max-width: 780px;
+    background-color: rgb(255, 255, 255, 0.8);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    padding: 60px 60px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
 
 /*-----------------Reponsivitet-----------------*/
 
 @media (max-width: 1185px) {
     #hero-intro-div {
-    text-align: center;
-    margin-top: 10px; 
+        text-align: center;
+        margin-top: 10px; 
+    }
+
+    #about-me-div {
+        text-align: center;
+        padding: 40px 30px;
     }
 }
 
 @media (max-width: 768px) {
     #hero-section-div {
         width: 90%;
-        
+    }
+
+    #about-me-div {
+        width: 80%;
     }
 
     #hero-intro-div {
@@ -82,7 +121,6 @@ p {
 
     h1 {
         font-size: 2.5em;
-        font-weight: 500;
     }
     
     h2 {
