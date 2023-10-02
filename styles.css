@@ -62,7 +62,7 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3)), url(bilder/about-me-bg.jpg) top center;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4)),  url(bilder/about-me-bg.jpg) top center;
     background-size: cover;
     padding-bottom: 100px;
 }
@@ -91,7 +91,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3)), url(bilder/resume-bg.jpg) top center;
+    background: linear-gradient(to top right, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4)), url(bilder/resume-bg.jpg) top center;
     background-size: cover;
     padding-bottom: 100px;
 }
